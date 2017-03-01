@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,user-scalable=no">
+    <meta name="author" content="Sergio Peláez">
+    <meta name="keywords" content="Hoja de Vida, Sergio Peláez, CV">
+    <meta name="description" content="Tarea Final primer módulo">
+    <title> Hoja de Vida Sergio Peláez</title>
+  </head>
+
+  <body>
+    <header>
+      <center><img src="Imagenes/logo.svg" alt="logo" title="Logo CV" height="100px"></center>
+      <h1>Hoja de Vida</h1>
+    </header>
+
+          <h2>Sergio Andrés Peláez</h2>
+             <h3>Bogotá, Colombia</h3>
+             <h3>27 marzo 1991</h3>
+
+                 <center>
+        <a href="index.html">Inicio</a> | <a href="educacion.html">Educación</a> | <a href="experiencia.html">Experiencia</a> <br>
+
+
+                 <svg height="10" width="1200">
+                   <line x1="0" y1="0" x2="2000" y2="0" style="stroke:rgb(0,0,0);stroke-width:2" />
+                 </svg>
+               </center>
+
+         <h2>Educación</h2>
+             <table border="1" cellpadding="0", cellspacing="0" id="tab01">
+              <thead>
+                <tr>
+                  <th>Año</th>
+                  <th>Institución</th>
+                  <th>Carrera</th>
+                  <th>Lugar</th>
+                  <th>Culminó</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>2012</td>
+                  <td>Universidad de los Andes</td>
+                  <td>Arte</td>
+                  <td>Bogotá</td>
+                  <td>sí</td>
+                </tr>
+                <tr>
+                  <td>2013</td>
+                  <td>Universidad de los Andes</td>
+                  <td>Diseño</td>
+                  <td>Bogotá</td>
+                  <td>sí</td>
+                </tr>
+                <tr>
+                  <td>2017</td>
+                  <td>Next U</td>
+                  <td>Desarrollo Web</td>
+                  <td>Online</td>
+                  <td>No</td>
+                </tr>
+              </tbody>
+            </table>
+<br><br>
+            <form autocomplete="on" name="Agregar Estudios" method="post">
+                <label for="Año">Año</label>
+                    <select name="Año">
+                        <option value="2012">2012</option>
+                        <option value="2013">2013</option>
+                        <option value="2014">2014</option>
+                        <option value="2015">2015</option>
+                        <option value="2016">2016</option>
+                        <option value="2017">2017</option>
+                    </select> <br>
+                <label for="Año">  Institución </label>
+                    <input type="text" id="Institucion" placeholder="  Ej:universidad" title="Requerido" required="on"><br>
+                <label for="Carrera">Carrera</label>
+                    <input type="text" id="Carrera" placeholder=" Ej:Diseño" title="Se necesita un nombre" required><br>
+                <label for="Lugar">Lugar</label>
+                    <input type="text" id="lugar" placeholder="  Ej:Cali" title="Se necesita un nombre" required><br>
+                <label for="culmino">¿Culminó?</label>
+                    <b>Si</b><input type="radio" name="culmino" value="si" id="culmino">
+                    <b>No</b><input type="radio" name="culmino" value="no" id="culmino">
+                <br>
+                    <input type="submit" value="Enviar">
+            </form>
+
+<br><br>    <footer>
+        	              seanpelaez@hotmail.com
+                  <br>  +57 1 321 574 9214
+                  <br> <a href="https://www.instagram.com/seanpelaez/" target="_blank">Instagram</a>
+            </footer>
+  </body>
+</html>
